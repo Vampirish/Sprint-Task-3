@@ -1,0 +1,85 @@
+body {
+	font-family: Arial;
+}
+
+.inf {
+	display: flex;
+	justify-content: center;	
+}
+
+.common {
+	width: 1070px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.resNum {
+	height: 30px;
+	width: 250px;
+	background: #E9ECEF;
+	box-sizing: border-box;
+	border: 1px solid lightgray;
+	outline: none;
+	padding-left: 10px;
+}
+
+.inpNum {
+	height: 30px;
+	width: 190px;
+	box-sizing: border-box;
+	border: 1px solid lightgray;
+	outline: none;
+	padding-left: 10px;
+}
+
+.inpCur {
+	height: 30px;
+	width: 60px;
+	border: 1px solid lightgray;
+}
+
+.inpInf {
+	height: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.inpInp {
+	width: 260px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.curName {
+	font-weight: bold;
+}
+
+.inpText {
+}
+
+.outInf {
+	width: 250px;
+	height: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.butt {
+	height: 40px;
+	width: 100px;
+	color: white;
+	background: black;
+	border-radius: 4px;
+	border: none;
+
+}
+
+.buttBlock {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}

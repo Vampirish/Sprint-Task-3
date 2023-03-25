@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sprint Task 3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="inf">
+		<div class="common">
+			<div class="inpInf">
+				<span class="inpText">Введите сумму:</span>
+				<div class="inpInp">
+					<div>
+						<input class="inpNum" type="number" id="inpNumID" onchange="transfer()">
+					</div>
+					<div>
+						<select class="inpCur" id="inpCurID" onchange="transfer()">
+							<option>KZT</option>
+							<option>USD</option>
+							<option>EUR</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="outInf">
+				<span class="curName">KZT (tenge)</span>
+				<input class="resNum" type="text" disabled id="curKZT">
+			</div>
+			<div class="outInf">
+				<span class="curName">USD (dollar)</span>
+				<input class="resNum" type="text" disabled id="curUSD">
+			</div>
+			<div class="outInf">
+				<span class="curName">EUR (euro)</span>
+				<input class="resNum" type="inpText" disabled id="curEUR">
+			</div>
+		</div>
+	</div>
+<!--	<div class="buttBlock">
+		<button onclick="transfer()" class="butt">ПЕРЕВЕСТИ</button>
+	</div>
+-->
+</body>
+</html>
